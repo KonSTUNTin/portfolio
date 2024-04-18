@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Wed Apr 10 2024 18:33:59 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Apr 18 2024 18:25:16 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65ec8de85e0cbf2d442acad2" data-wf-site="656378247688a3e47683b512">
 <head>
   <meta charset="utf-8">
@@ -26,8 +26,15 @@
       </div>
     </div>
     <div class="container header">
-      <a href="../index.html" class="button logo w-inline-block">
+      <a id="back" href="#" class="button logo w-inline-block">
         <div class="logo">K_O</div>
+        <div class="hide w-embed w-script">
+          <script>
+document.getElementById("back").addEventListener("click", () => {
+  history.go(-1);
+});
+</script>
+        </div>
       </a>
       <div class="header_layout">
         <a href="#" class="button w-inline-block">

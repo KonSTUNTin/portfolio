@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Wed Apr 10 2024 18:33:59 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Apr 18 2024 18:25:16 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65ec8de85e0cbf2d442acad3" data-wf-site="656378247688a3e47683b512">
 <head>
   <meta charset="utf-8">
@@ -25,8 +25,15 @@
       </div>
     </div>
     <div class="container header">
-      <a href="../index.html" class="button logo w-inline-block">
+      <a id="back" href="#" class="button logo w-inline-block">
         <div class="logo">K_O</div>
+        <div class="hide w-embed w-script">
+          <script>
+document.getElementById("back").addEventListener("click", () => {
+  history.go(-1);
+});
+</script>
+        </div>
       </a>
       <div class="header_layout">
         <a href="#contacts" class="button w-inline-block">
@@ -121,7 +128,7 @@
       <div class="_2_cols"><img src="../images/product.webp" loading="lazy" id="w-node-eefd60d3-83f4-2929-fdb4-e90144b939e5-442acad3" sizes="(max-width: 767px) 83vw, (max-width: 991px) 45vw, 48vw" alt="" srcset="../images/product-p-500.jpg 500w, ../images/product-p-800.jpg 800w, ../images/product-p-1080.jpg 1080w, ../images/product-p-1600.jpg 1600w, ../images/product.webp 1846w" class="pic white_shadow"><img src="../images/green.webp" loading="lazy" id="w-node-eefd60d3-83f4-2929-fdb4-e90144b939e6-442acad3" sizes="(max-width: 767px) 83vw, (max-width: 991px) 45vw, 48vw" alt="" srcset="../images/green-p-500.jpg 500w, ../images/green-p-800.jpg 800w, ../images/green-p-1080.jpg 1080w, ../images/green-p-1600.jpg 1600w, ../images/green.webp 1847w" class="pic white_shadow"></div>
     </div>
   </section>
-  <section class="section">
+  <section class="section contacts">
     <div id="contacts" class="container _2_columns no_line">
       <div class="layout stretch">
         <h1 id="w-node-_253f72b7-3619-e929-5695-7ce41ff948b9-4ea1a3ed" class="heading_3 left">КОНТАКТЫ</h1>

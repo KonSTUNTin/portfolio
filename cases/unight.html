@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Wed Apr 10 2024 18:33:59 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Apr 18 2024 18:25:16 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65ec8de85e0cbf2d442acad7" data-wf-site="656378247688a3e47683b512">
 <head>
   <meta charset="utf-8">
@@ -25,8 +25,15 @@
       </div>
     </div>
     <div class="container header">
-      <a href="../index.html" class="button logo w-inline-block">
+      <a id="back" href="#" class="button logo w-inline-block">
         <div class="logo">K_O</div>
+        <div class="hide w-embed w-script">
+          <script>
+document.getElementById("back").addEventListener("click", () => {
+  history.go(-1);
+});
+</script>
+        </div>
       </a>
       <div class="header_layout">
         <a href="#contacts" class="button w-inline-block">
@@ -90,7 +97,7 @@
       </div><img src="../images/unight_screen_5.webp" loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, (max-width: 1790px) 95vw, 1701px" srcset="../images/unight_screen_5unight_screen_04.webp 500w, ../images/unight_screen_5unight_screen_04.webp 800w, ../images/unight_screen_5unight_screen_04.webp 1080w, ../images/unight_screen_5unight_screen_04.webp 1600w, ../images/unight_screen_5.webp 1701w" alt="" class="pic autowidth white_shadow"><img src="../images/unight_buy_1.webp" loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, (max-width: 1790px) 95vw, 1701px" srcset="../images/unight_buy_1unight_buy.webp 500w, ../images/unight_buy_1unight_buy.webp 800w, ../images/unight_buy_1unight_buy.webp 1080w, ../images/unight_buy_1unight_buy.webp 1600w, ../images/unight_buy_1.webp 1701w" alt="" class="pic autowidth"><img src="../images/unight_screen_4.webp" loading="lazy" id="w-node-_79aec1bc-a706-4ed3-6867-06c7190d85d5-442acad7" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, (max-width: 1791px) 95vw, 1702px" alt="" srcset="../images/unight_screen_4unight_screen_03.webp 500w, ../images/unight_screen_4unight_screen_03.webp 800w, ../images/unight_screen_4unight_screen_03.webp 1080w, ../images/unight_screen_4unight_screen_03.webp 1600w, ../images/unight_screen_4.webp 1702w" class="pic autowidth white_shadow"><img src="../images/unight_screen_3.webp" loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, (max-width: 1790px) 95vw, 1701px" srcset="../images/unight_screen_3unight_screen_02.webp 500w, ../images/unight_screen_3unight_screen_02.webp 800w, ../images/unight_screen_3unight_screen_02.webp 1080w, ../images/unight_screen_3unight_screen_02.webp 1600w, ../images/unight_screen_3.webp 1701w" alt="" class="pic autowidth white_shadow"><img src="../images/unight_screen_2.webp" loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, (max-width: 1790px) 95vw, 1701px" srcset="../images/unight_screen_2unight_screen_01.webp 500w, ../images/unight_screen_2unight_screen_01.webp 800w, ../images/unight_screen_2unight_screen_01.webp 1080w, ../images/unight_screen_2unight_screen_01.webp 1600w, ../images/unight_screen_2.webp 1701w" alt="" class="pic autowidth white_shadow">
     </div>
   </section>
-  <section class="section">
+  <section class="section contacts">
     <div id="contacts" class="container _2_columns no_line">
       <div class="layout stretch">
         <h1 id="w-node-_253f72b7-3619-e929-5695-7ce41ff948b9-4ea1a3ed" class="heading_3 left">КОНТАКТЫ</h1>
