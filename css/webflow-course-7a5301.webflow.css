@@ -2779,7 +2779,7 @@ li {
 
 @font-face {
   font-family: 'Robotoflex Variablefont Grad Xtra Yopq Ytas Ytde Ytfi Ytlc Ytuc Opsz Slnt Wdth Wght';
-  src: url('../images/') format('truetype');
+  src: url('../fonts/flex.ttf') format('truetype');
   font-weight: 100 1000;
   font-style: normal;
   font-display: swap;
